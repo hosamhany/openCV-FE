@@ -1,0 +1,33 @@
+{
+  "name": "opencv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.html",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosamhany/openCV-FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hosamhany/openCV-FE/issues"
+  },
+  "homepage": "https://github.com/hosamhany/openCV-FE#readme"
+}

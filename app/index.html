@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20" ng-controller="controller">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">OpenCV</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+      <button ng-click="sendReq()" value = "test">Test</button>
+    </nav>
+
+
+    <div  class="container">
+        <div class="editor" ui-ace="{ mode: 'python', theme: 'monokai' }" ng-model="code"></div>
+        <div class="output" ui-ace="{ mode: 'text', theme: 'monokai' }" readonly="{{checked}}" ng-model="output"></div>
+    </div>
+
+    <div class="img_container">
+        <div class="row">
+            <nav class="col-sm-3" id="myScrollspy">
+
+            </nav>
+            <div class="col-sm-9">
+                <ul>
+                    <li class="list_img">
+                        <img src="images/store.png">
+                    </li>
+                    <li class="list_img">
+                        <img src="images/store.png">
+                    </li>
+                    <li class="list_img">
+                        <img src="images/store.png">
+                    </li>
+                    <li class="list_img">
+                        <img src="images/store.png">
+                    </li>
+                    <li class="list_img">
+                        <img src="images/store.png">
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+      </div>
+</body>
+
+
+<script src="../node_modules/angular/angular.js"></script>
+<!-- <script src="js/jqueryScript.js"></script> -->
+<script src="js/script.js"></script>
+
+
+<script src='http://angular-ui.github.io/ui-ace/dist/ui-ace.min.js'></script>
+<!-- <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script> -->
+<script src='http://ace.c9.io/build/src-min-noconflict/ace.js'></script>
+<script src='http://angular-ui.github.io/ui-ace/dist/ui-ace.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://mreq.github.io/slick-lightbox/dist/slick-lightbox.js"></script>
+
+
+
+
+
+
+</html>
