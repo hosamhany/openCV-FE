@@ -52,7 +52,6 @@ gulp.task('build', function() {
     ['lint', 'minify-css', 'minify-js', 'copy-html-files', 'copy-bower-components', 'connectDist']
   );
 });
-
 gulp.task('connect', function () {
     connect.server({
       root: ['app','.', '/node_modules'],
